@@ -14,7 +14,7 @@ namespace EF01.Data
         {
 
         }
-        public DbSet<Employee>? Employees { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=.;Database=Company;Trusted_Connection=True;TrustServerCertificate=True;");

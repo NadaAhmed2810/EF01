@@ -7,7 +7,7 @@ namespace EF01
         static void Main(string[] args)
         {
             using CompanyDbContext context = new CompanyDbContext();
-            var employee=context.Employees?.Where(E=>E.Id==10).FirstOrDefault();
+            //var employee=context.Employees?.Where(E=>E.Id==10).FirstOrDefault();
 
             ///using(CompanyDbContext context = new CompanyDbContext())
             ///{
