@@ -19,5 +19,6 @@ namespace EF01.Data
         {
             optionsBuilder.UseSqlServer("Server=.;Database=Company;Trusted_Connection=True;TrustServerCertificate=True;");
         }
+        public DbSet<Employee> Employees { get; set; }
     }
 }
